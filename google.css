@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px
+}
+body{
+	font-family:arial, sans-serif;
+	font-size:13px;
+}
+h1#logo{
+	width:269px;
+	height:95px;
+	background:url('img/googlelogo_color_272x92dp.png') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+#container{
+	width:580px;
+	margin: 0 auto;
+	text-align: center;
+}
+input[type="search"]{
+	width:566px;
+	padding:7px;
+	margin-bottom: 10px;
+	border:sold 1px #ccc;
+	font-size: 16px;
+}
+input[type="search"]:hover{
+	border-color: #aaa;
+}
+input[type="submit"]{
+	background:#eee;
+	color:#333;
+	border:solid 1px #ddd;
+	padding:5px; 
+	font-size:12px;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	margin:0 5px;
+}
+input[type="submit"]:hover{
+	cursor: pointer;
+}
+small{
+		display:block;
+		margin:10px 0 0 0 ;
+}
+#sign{
+	border:solid 1px #eee;
+	background:#eee;
+	color:white;
+}
+a:link,a:visited{
+	color:dodgerblue;
+}
+nav#header ul li{
+	display:inline;
+}
+nav#header{
+	text-align: right;
+	padding: 20px;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+	color: #555;
+	text-decoration: none;
+	padding: 10px;
+	
+}
+nav#header ul li a:hover,
+footer nav ul li a:hover{
+	color:dodgerblue;
+	text-decoration: underline;
+}
+footer{
+	background:#eee;
+	padding: 20px;
+	position: fixed;
+	width:100%;
+	bottom: 0;
+}
+footer nav ul li{
+	display: inline;
+}
+footer nav ul{
+	float:left;
+}
+footer nav ul.right-links{
+	float: right;
+	text-align: right;
+	margin-right: 40px;
+}
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
